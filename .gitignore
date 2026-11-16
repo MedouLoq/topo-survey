@@ -1,0 +1,31 @@
+# Runtime data (real projects: database, routes, logos)
+data/
+demo-data/
+backend/data/
+*.db
+*.sqlite*
+uploads/
+*.kmz
+!samples/demo_route.kmz
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+
+# Editors / tools
+.vscode/
+.idea/
+.claude/
+.DS_Store
